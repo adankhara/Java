@@ -1,13 +1,16 @@
 import HomeWork1.HomeWork;
+
+
+import HomeWork1.Loops;
+
 import java.util.Scanner;
-
-
 
 /**
  * Created by Asha on 28/02/2017.
  */
 public class Program {
     public static void main(String[] args) {
+
         //Pyramid.Pyramid1();
         // HomeWork.EvenOdd1(201);
 
@@ -114,14 +117,29 @@ public class Program {
         HomeWork.FindVowelConsonant("t");
         HomeWork.FindVowelConsonant("");
         */
-        Pyramid.Pyramid1();
+        //Pyramid.Pyramid1();
+        //Loops.DisplayRightAngleTriangle(5);
+       // Loops.TrianglePyramid();
+       // Loops.PrintDiamond();
+
+        //Loops.NumericDiamond(9);
+
+       // Loops.PascalTriangle(4);
+        //Loops.CharacterTriangle(10);
+       // Array.MyArray1();
+        //Array.GridArray();
+        //Loops.SumOfNaturalNumbers(7);
+        //Loops.NumTriangle(10);
+        //Loops.FibonacciNumbers(5);
+        //Loops.MultiplicationTable(5);
+        //Loops.LeftAngleTriangle(5);
+
+
+        WhileLoop.PrintNumbers();
 
 
 
 
-
-
-
-    }
+   }
 
 }
